@@ -58,7 +58,12 @@ export default function Demo() {
         <Toolbar variant="dense" disableGutters={true} />
         <List>
           <ListItem>
-            <Stack spacing={0.25} alignItems="center" alignContent="center">
+            <Stack
+              width="100%"
+              spacing={0.25}
+              alignItems="center"
+              alignContent="center"
+            >
               <PeopleAltIcon color="action" />
               <Typography variant="caption" component="div">
                 People
@@ -66,7 +71,12 @@ export default function Demo() {
             </Stack>
           </ListItem>
           <ListItem>
-            <Stack spacing={0.25} alignItems="center" alignContent="center">
+            <Stack
+              width="100%"
+              spacing={0.25}
+              alignItems="center"
+              alignContent="center"
+            >
               <JobsIcon color="action" />
               <Typography variant="caption" component="div">
                 Jobs
@@ -74,7 +84,7 @@ export default function Demo() {
             </Stack>
           </ListItem>
           <ListItem>
-            <Stack spacing={0.25} alignItems="center" alignContent="center">
+            <Stack width="100%" spacing={0.25} alignItems="center" alignContent="center">
               <WorkflowIcon color="action" />
               <Typography variant="caption" component="div">
                 Submittals
