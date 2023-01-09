@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/material": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-ipsum": "0.6.0"
+  },
+  "description": "https://github.com/mui/material-ui/blob/v5.11.3/docs/data/material/components/drawers/ClippedDrawer.js",
+  "devDependencies": {
+    "react-scripts": "latest"
+  },
+  "keywords": [],
+  "name": "shellaced-forked",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
