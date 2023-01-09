@@ -1,10 +1,7 @@
 import React from "react";
 import { SvgIcon } from "@mui/material";
-import { useTheme } from "@mui/material/styles";
 
 export function WorkflowIcon(props) {
-  const theme = useTheme();
-  console.log(theme);
   return (
     <SvgIcon {...props}>
       <svg
@@ -38,7 +35,6 @@ export function WorkflowIcon(props) {
 }
 
 export function JobsIcon(props) {
-  const theme = useTheme();
   return (
     <SvgIcon {...props}>
       <svg
