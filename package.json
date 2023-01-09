@@ -4,12 +4,14 @@
     "@emotion/styled": "latest",
     "@mui/icons-material": "latest",
     "@mui/material": "latest",
+    "eslint": "^8.31.0",
     "react": "latest",
     "react-dom": "latest",
     "react-ipsum": "0.6.0"
   },
   "description": "https://github.com/mui/material-ui/blob/v5.11.3/docs/data/material/components/drawers/ClippedDrawer.js",
   "devDependencies": {
+    "eslint-plugin-react": "^7.31.11",
     "react-scripts": "latest"
   },
   "keywords": [],
