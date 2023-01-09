@@ -10,7 +10,7 @@ import {
   AppBar,
   Toolbar,
   Typography,
-  Box
+  Box,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import EmailIcon from "@mui/icons-material/Email";
@@ -36,7 +36,14 @@ export default function Demo() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6">
-            Shellaced<sup>v0.0</sup>
+            Shellaced
+            <sup
+              style={{
+                fontSize: "50%",
+              }}
+            >
+              v0.0
+            </sup>
           </Typography>
         </Toolbar>
       </AppBar>
@@ -80,7 +87,7 @@ export default function Demo() {
         sx={{
           p: 1,
           marginLeft: isDrawerOpen ? 12 : 0,
-          marginBottom: 4
+          marginBottom: 4,
         }}
       >
         <Typography variant="body2">{ipsum}</Typography>
@@ -90,7 +97,7 @@ export default function Demo() {
           position: "fixed",
           m: 0,
           bottom: 0,
-          bgcolor: "background.paper"
+          bgcolor: "background.paper",
         }}
         style={{ padding: 0 }}
       >
