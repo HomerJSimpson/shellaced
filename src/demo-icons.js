@@ -1,5 +1,8 @@
 import React from "react";
 import { SvgIcon } from "@mui/material";
+import PeopleAltIcon from "@mui/icons-material/PeopleAlt";
+
+export const PeopleIcon = PeopleAltIcon;
 
 export function WorkflowIcon(props) {
   return (
