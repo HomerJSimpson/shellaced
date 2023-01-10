@@ -13,10 +13,10 @@ import {
   Box,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-import EmailIcon from "@mui/icons-material/Email";
+// import EmailIcon from "@mui/icons-material/Email";
 import { LoremText } from "react-ipsum";
-import PeopleAltIcon from "@mui/icons-material/PeopleAlt";
-import { WorkflowIcon, JobsIcon } from "./demo-icons";
+
+import { PeopleIcon, WorkflowIcon, JobsIcon } from "./demo-icons";
 
 export default function Demo() {
   const [isDrawerOpen, setIsDrawerOpen] = React.useState(false);
@@ -64,7 +64,7 @@ export default function Demo() {
               alignItems="center"
               alignContent="center"
             >
-              <PeopleAltIcon color="action" />
+              <PeopleIcon color="action" />
               <Typography variant="caption" component="div">
                 People
               </Typography>
@@ -84,7 +84,12 @@ export default function Demo() {
             </Stack>
           </ListItem>
           <ListItem>
-            <Stack width="100%" spacing={0.25} alignItems="center" alignContent="center">
+            <Stack
+              width="100%"
+              spacing={0.25}
+              alignItems="center"
+              alignContent="center"
+            >
               <WorkflowIcon color="action" />
               <Typography variant="caption" component="div">
                 Submittals
