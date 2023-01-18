@@ -4,6 +4,7 @@ import {
   Divider,
   Container,
   IconButton,
+  Button,
   List,
   ListItem,
   Drawer,
@@ -15,8 +16,14 @@ import {
 import MenuIcon from "@mui/icons-material/Menu";
 // import EmailIcon from "@mui/icons-material/Email";
 import { LoremText } from "react-ipsum";
+import { styled } from "@mui/material/styles";
 
 import { PeopleIcon, WorkflowIcon, JobsIcon } from "./demo-icons";
+
+const StackedLabelButton = styled(Button)((props) => ({
+  flexDirection: "column",
+  display: "contents",
+}));
 
 export default function Demo() {
   const [isDrawerOpen, setIsDrawerOpen] = React.useState(false);
@@ -52,48 +59,45 @@ export default function Demo() {
         open={isDrawerOpen}
         onClose={() => setIsDrawerOpen(false)}
         anchor="left"
-        variant={!isDrawerOpen ? "persistent" : "persistent"}
+        variant="persistent"
         sx={{ position: "relative", "z-index": 1 }}
       >
         <Toolbar variant="dense" disableGutters={true} />
         <List>
           <ListItem>
             <Stack
-              width="100%"
+              minWidth="100%"
               spacing={0.25}
               alignItems="center"
               alignContent="center"
             >
-              <PeopleIcon color="action" />
-              <Typography variant="caption" component="div">
+              <StackedLabelButton startIcon={<PeopleIcon />}>
                 People
-              </Typography>
+              </StackedLabelButton>
             </Stack>
           </ListItem>
           <ListItem>
             <Stack
-              width="100%"
+              minWidth="100%"
               spacing={0.25}
               alignItems="center"
               alignContent="center"
             >
-              <JobsIcon color="action" />
-              <Typography variant="caption" component="div">
+              <StackedLabelButton startIcon={<JobsIcon />}>
                 Jobs
-              </Typography>
+              </StackedLabelButton>
             </Stack>
           </ListItem>
           <ListItem>
             <Stack
-              width="100%"
+              minwWidth="100%"
               spacing={0.25}
               alignItems="center"
               alignContent="center"
             >
-              <WorkflowIcon color="action" />
-              <Typography variant="caption" component="div">
+              <StackedLabelButton startIcon={<WorkflowIcon />}>
                 Submittals
-              </Typography>
+              </StackedLabelButton>
             </Stack>
           </ListItem>
         </List>
@@ -101,7 +105,7 @@ export default function Demo() {
       <Box
         sx={{
           p: 1,
-          marginLeft: isDrawerOpen ? 12 : 0,
+          marginLeft: isDrawerOpen ? 18 : 0,
           marginBottom: 4,
         }}
       >
