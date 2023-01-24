@@ -3154,11 +3154,6 @@ cjs-module-lexer@^1.0.0:
   resolved "https://registry.yarnpkg.com/cjs-module-lexer/-/cjs-module-lexer-1.2.2.tgz#9f84ba3244a512f3a54e5277e8eef4c489864e40"
   integrity sha512-cOU9usZw8/dXIXKtwa8pM0OTJQuJkxMN6w30csNRUerHfeQ5R6U3kkU/FtJeIf3M202OHfY2U8ccInBG7/xogA==
 
-classnames@^2.2.6:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.2.tgz#351d813bf0137fcc6a76a16b88208d2560a0d924"
-  integrity sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==
-
 clean-css@^5.2.2:
   version "5.3.1"
   resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-5.3.1.tgz#d0610b0b90d125196a2894d35366f734e5d7aa32"
@@ -3254,6 +3249,11 @@ commander@^8.3.0:
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-8.3.0.tgz#4837ea1b2da67b9c616a67afbb0fafee567bca66"
   integrity sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==
+
+commander@^9.3.0:
+  version "9.5.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-9.5.0.tgz#bc08d1eb5cedf7ccb797a96199d41c7bc3e60d30"
+  integrity sha512-KRs7WVDKg86PWiuAqhDrAQnTXZKraVcCc6vFdL14qrZ/DcWwuRo7VoiYXalXO7S5GKpqYiVEwCbgFDfxNHKJBQ==
 
 common-path-prefix@^3.0.0:
   version "3.0.0"
@@ -6088,12 +6088,12 @@ loose-envify@^1.1.0, loose-envify@^1.4.0:
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
 
-lorem-ipsum@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/lorem-ipsum/-/lorem-ipsum-1.0.6.tgz#69e9ab02bbb0991915d71b5559fe016d526f013f"
-  integrity sha512-Rx4XH8X4KSDCKAVvWGYlhAfNqdUP5ZdT4rRyf0jjrvWgtViZimDIlopWNfn/y3lGM5K4uuiAoY28TaD+7YKFrQ==
+lorem-ipsum@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/lorem-ipsum/-/lorem-ipsum-2.0.8.tgz#f969a089f2ac6f19cf01b854b61beabb0e6f3cbc"
+  integrity sha512-5RIwHuCb979RASgCJH0VKERn9cQo/+NcAi2BMe9ddj+gp7hujl6BI+qdOG4nVsLDpwWEJwTVYXNKP6BGgbcoGA==
   dependencies:
-    minimist "~1.2.0"
+    commander "^9.3.0"
 
 lower-case@^2.0.2:
   version "2.0.2"
@@ -6235,7 +6235,7 @@ minimatch@^5.0.1:
   dependencies:
     brace-expansion "^2.0.1"
 
-minimist@^1.2.0, minimist@^1.2.6, minimist@~1.2.0:
+minimist@^1.2.0, minimist@^1.2.6:
   version "1.2.7"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.7.tgz#daa1c4d91f507390437c6a8bc01078e7000c4d18"
   integrity sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g==
@@ -7419,15 +7419,6 @@ react-error-overlay@^6.0.11:
   version "6.0.11"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.11.tgz#92835de5841c5cf08ba00ddd2d677b6d17ff9adb"
   integrity sha512-/6UZ2qgEyH2aqzYZgQPxEnz33NJ2gNsnHA2o5+o4wW9bLM/JYQitNP9xPhsXwC08hMMovfGe/8retsdDsczPRg==
-
-react-ipsum@0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/react-ipsum/-/react-ipsum-0.6.0.tgz#a429862bf205bfb4db5aa66a3bf2642819227cb7"
-  integrity sha512-P4O+Ajoz5ZXXwoHcZy2s2UInU146ObNesuhWcp7osZSdvCBXi0MqB5MYrtNEoM7cIB3L48KSzPnJrnFrt4cxiA==
-  dependencies:
-    classnames "^2.2.6"
-    lorem-ipsum "^1.0.6"
-    prop-types "^15.6.2"
 
 react-is@^16.13.1, react-is@^16.7.0:
   version "16.13.1"

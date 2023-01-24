@@ -5,9 +5,9 @@
     "@mui/icons-material": "latest",
     "@mui/material": "latest",
     "eslint": "^8.31.0",
+    "lorem-ipsum": "^2.0.8",
     "react": "latest",
-    "react-dom": "latest",
-    "react-ipsum": "0.6.0"
+    "react-dom": "latest"
   },
   "description": "https://github.com/mui/material-ui/blob/v5.11.3/docs/data/material/components/drawers/ClippedDrawer.js",
   "devDependencies": {
