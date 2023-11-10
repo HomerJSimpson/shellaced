@@ -1,0 +1,134 @@
+{
+  "series_title": "Stargate SG-1",
+  "seasons": [
+    {
+      "season_number": 1,
+      "episodes": [
+        {
+          "episode_number": 1,
+          "title": "Children of the Gods (Part 1)",
+          "air_date": "July 27, 1997",
+          "writer": "Jonathan Glassner",
+          "director": "Mario Azzopardi",
+          "guest_stars": ["Vaitiare Bandera", "Peter Williams"],
+          "plot_summary": "Colonel Jack O'Neill and his team discover a secret military base with a Stargate that allows for interstellar travel to other planets."
+        },
+        {
+          "episode_number": 2,
+          "title": "Children of the Gods (Part 2)",
+          "air_date": "July 27, 1997",
+          "writer": "Jonathan Glassner",
+          "director": "Mario Azzopardi",
+          "guest_stars": ["Vaitiare Bandera", "Peter Williams"],
+          "plot_summary": "The SG-1 team attempts to rescue Sha're and Skaara, who have been captured by the Goa'uld."
+        },
+        {
+          "episode_number": 3,
+          "title": "The Enemy Within",
+          "air_date": "August 1, 1997",
+          "writer": "Katharyn Powers",
+          "director": "Martin Wood",
+          "guest_stars": ["Teryl Rothery", "Laara Sadiq"],
+          "plot_summary": "A Goa'uld larva takes control of one of the team members, leading to a tense internal conflict."
+        },
+        {
+          "episode_number": 4,
+          "title": "Emancipation",
+          "air_date": "August 8, 1997",
+          "writer": "Katharyn Powers",
+          "director": "David Warry-Smith",
+          "guest_stars": ["Goddess Jean", "Kam Heskin"],
+          "plot_summary": "SG-1 visits a planet where women are treated as property, leading to cultural clashes and challenges."
+        },
+        {
+          "episode_number": 5,
+          "title": "The Broca Divide",
+          "air_date": "August 15, 1997",
+          "writer": "Jonathan Glassner",
+          "director": "Brad Turner",
+          "guest_stars": ["Michael Kopelow", "Chilton Crane"],
+          "plot_summary": "A contagious virus causes members of SG-1 to revert to a primitive state."
+        },
+        {
+          "episode_number": 6,
+          "title": "The First Commandment",
+          "air_date": "August 22, 1997",
+          "writer": "Robert C. Cooper",
+          "director": "Dennis Berry",
+          "guest_stars": ["Amanda Ooms", "Tom Butler"],
+          "plot_summary": "SG-1 encounters an old comrade who has taken on a god-like role on a primitive planet."
+        },
+        {
+          "episode_number": 7,
+          "title": "Cold Lazarus",
+          "air_date": "August 29, 1997",
+          "writer": "Jeff King",
+          "director": "Mario Azzopardi",
+          "guest_stars": ["Danny Wattley", "Andrew Jackson"],
+          "plot_summary": "An alien device causes O'Neill to experience an alternate reality, forcing him to confront his past."
+        }
+        // Placeholder for more Season 1 episodes
+      ]
+    },
+    {
+      "season_number": 2,
+      "episodes": [
+        // Placeholder for Season 2 episodes
+      ]
+    },
+    {
+      "season_number": 3,
+      "episodes": [
+        // Placeholder for Season 3 episodes
+      ]
+    },
+    {
+      "season_number": 4,
+      "episodes": [
+        // Placeholder for Season 4 episodes
+      ]
+    },
+    {
+      "season_number": 5,
+      "episodes": [
+        // Placeholder for Season 5 episodes
+      ]
+    },
+    {
+      "season_number": 6,
+      "episodes": [
+        // Placeholder for Season 6 episodes
+      ]
+    },
+    {
+      "season_number": 7,
+      "episodes": [
+        // Placeholder for Season 7 episodes
+      ]
+    },
+    {
+      "season_number": 8,
+      "episodes": [
+        // Placeholder for Season 8 episodes
+      ]
+    },
+    {
+      "season_number": 9,
+      "episodes": [
+        // Placeholder for Season 9 episodes
+      ]
+    },
+    {
+      "season_number": 10,
+      "episodes": [
+        // Placeholder for Season 10 episodes
+      ]
+    }
+  ],
+  "main_cast": [
+    "Richard Dean Anderson (Colonel Jack O'Neill)",
+    "Michael Shanks (Dr. Daniel Jackson)",
+    "Amanda Tapping (Captain Samantha Carter)",
+    "Christopher Judge (Teal'c)"
+  ]
+}

@@ -15,19 +15,21 @@ import {
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 // import EmailIcon from "@mui/icons-material/Email";
-import { LoremText } from "react-ipsum";
+// import { LoremText } from "react-ipsum";
 import { styled } from "@mui/material/styles";
 
 import { PeopleIcon, WorkflowIcon, JobsIcon } from "./demo-icons";
 
-const StackedLabelButton = styled(Button)((props) => ({
+//require("../readme.md");
+
+const StackedLabelButton = styled(Button)((/* props */) => ({
   flexDirection: "column",
   display: "contents",
 }));
 
 export default function Demo() {
   const [isDrawerOpen, setIsDrawerOpen] = React.useState(false);
-  const [ipsum] = React.useState(<LoremText units={"p"} count={42} />);
+  //const [ipsum] = React.useState(<LoremText units={"p"} count={42} />);
 
   return (
     <div>
@@ -43,13 +45,13 @@ export default function Demo() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6">
-            Shellaced
+            {process.env.react_app_name}
             <sup
               style={{
                 fontSize: "50%",
               }}
             >
-              v0.0
+              v{process.env.REACT_APP_version}
             </sup>
           </Typography>
         </Toolbar>
@@ -109,7 +111,9 @@ export default function Demo() {
           marginBottom: 4,
         }}
       >
-        <Typography variant="body2">{ipsum}</Typography>
+        <Typography component="pre" variant="body2">
+          {JSON.stringify(process.env, undefined, "\t")}
+        </Typography>
       </Box>
       <Container
         sx={{
