@@ -11,13 +11,16 @@
   },
   "description": "https://github.com/mui/material-ui/blob/v5.11.3/docs/data/material/components/drawers/ClippedDrawer.js",
   "devDependencies": {
+    "eslint-plugin-jsonc": "^2.10.0",
     "eslint-plugin-react": "^7.31.11",
+    "mklnks": "^2.0.0",
     "react-scripts": "latest"
   },
   "keywords": [],
   "name": "shellaced-forked",
   "version": "0.0.0",
   "scripts": {
+    "bootstrap": "echo yay!",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
